@@ -8,7 +8,7 @@ requests==2.31.0
 
 # مكتبات معالجة اللغة الطبيعية (الإصدار CPU فقط لتقليل الحجم)
 transformers==4.35.2
-torch==2.8.0+cpu
+torch==2.8.0
 nltk==3.8.1
 
 # مكتبات معالجة النصوص
@@ -29,4 +29,5 @@ google-cloud-texttospeech==2.16.1
 pydantic==2.5.0
 python-dotenv==1.0.0
 loguru==0.7.2
+
 
