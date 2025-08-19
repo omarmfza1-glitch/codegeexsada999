@@ -1,0 +1,38 @@
+# تجاهل مجلدات النماذج الكبيرة
+models/
+checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+.venv
+.env
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# إضافة تجاهل متطلبات التطوير
+requirements-dev.txt
+
+# تجاهل ملفات البناء
+build.sh
+
